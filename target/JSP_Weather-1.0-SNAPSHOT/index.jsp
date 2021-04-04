@@ -48,9 +48,9 @@
         <form  method="POST" action="#" >
             <div align="center">
             <form  method="POST" action="#" ></form>
-            <input list="city" name="city">
+            <label>City:
+            <input list="city" name="city" /></label>
             <datalist id="city">
-          
             <option value="Dhaka">Dhaka</option>
             <option value="Chittagong">Chittagong</option>
             <option value="Khulna">Khulna</option>
