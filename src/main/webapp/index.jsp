@@ -48,16 +48,17 @@
         <form  method="POST" action="#" >
             <div align="center">
             <form  method="POST" action="#" ></form>
-            <label class="form-label">City</label>
-            <select name="city" id="city" class="combo">
-            <option value="Select">Select.....</option>
+            <input list="city" name="city">
+            <datalist id="city">
+          
             <option value="Dhaka">Dhaka</option>
             <option value="Chittagong">Chittagong</option>
             <option value="Khulna">Khulna</option>
             <option value="Rajshahi">Rajshahi</option>
             <option value="Rangpur">Rangpur</option>
             <option value="Sylhet">Sylhet</option>
-        </select>
+            </datalist>
+   
         </div>
         </br>
         <div align="center">
