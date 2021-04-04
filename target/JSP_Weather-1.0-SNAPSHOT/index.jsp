@@ -46,21 +46,10 @@
     <body>
         <h1 align="center">Weather Data Storage by JSP</h1>
         <form  method="POST" action="#" >
-            <div align="center">
-            <form  method="POST" action="#" ></form>
-            <label>City:
-            <input list="city" name="city" /></label>
-            <datalist id="city">
-            <option value="Dhaka">Dhaka</option>
-            <option value="Chittagong">Chittagong</option>
-            <option value="Khulna">Khulna</option>
-            <option value="Rajshahi">Rajshahi</option>
-            <option value="Rangpur">Rangpur</option>
-            <option value="Sylhet">Sylhet</option>
-            </datalist>
-   
+        <div align="center">
+            <label class="form-label"></label>
+            <input type="text" class="form-control" placeholder="City" name="city" id="city" required >
         </div>
-        </br>
         <div align="center">
             <label class="form-label"></label>
             <input type="text" class="form-control" placeholder="Maximum Temperature" name="maxt" id="maxt" required >
